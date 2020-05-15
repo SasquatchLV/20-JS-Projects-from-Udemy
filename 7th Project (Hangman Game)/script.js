@@ -137,5 +137,4 @@ playAgainBtn.onclick = restartGame;
 (async () => {
   selectedWord = await getRandomWord();
   displayWord();
-  console.log(selectedWord);
 })();
