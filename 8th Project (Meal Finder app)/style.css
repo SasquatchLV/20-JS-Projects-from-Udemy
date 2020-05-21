@@ -163,6 +163,17 @@ input[type='text'] {
   text-align: justify;
 }
 
+@media (max-width: 1400x) {
+  .meals {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 1000x) {
+  .meals {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
 @media (max-width: 800px) {
   .meals {
     grid-template-columns: repeat(3, 1fr);
