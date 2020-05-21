@@ -58,7 +58,7 @@ input[type='text'] {
 
 .meals {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 20px;
   margin-top: 20px;
 }
@@ -163,14 +163,14 @@ input[type='text'] {
   text-align: justify;
 }
 
-@media (max-width: 1400x) {
-  .meals {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-@media (max-width: 1000x) {
+@media (max-width: 1200px) {
   .meals {
     grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .meals {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
